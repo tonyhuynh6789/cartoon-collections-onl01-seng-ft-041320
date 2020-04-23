@@ -11,8 +11,9 @@ def summon_captain_planet(long_planeteer_calls)
 end
 
 def long_planeteer_calls(array)
-  count = 0 
-  while count < array.lent 
+  array.any? do |word|
+    word.length > 4
+  end 
 end
 
 def find_the_cheese# code an argument here
